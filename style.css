@@ -1,1 +1,41 @@
- 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(240, 229, 11);
+}
+
+.card{
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 50px 20px 0 20px;
+  box-sizing: border-box;
+  background: rgb(212, 6, 137);
+  background: radial-gradient(circle at 50% 50%, rgba(212, 6, 137, 1) 0%, rgb(134, 6, 246) 100%);
+  margin: 100px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card input {
+  font-size: 28px;
+  padding: 10px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 5px 0;
+  outline: none;
+}
+
+.holder {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  padding-top: 50px;
+}
+
+.card #inputDate {
+  width: 80px;
+}
+
+.card #inputCvv {
+  width: 50px;
+}
